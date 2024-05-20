@@ -29,6 +29,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-playwright-
 
+      - name: Install packages
+        run: yarn
+
       - name: Build Storybook
         run: yarn build:storybook
       - name: Serve Storybook
