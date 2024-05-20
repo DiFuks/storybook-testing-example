@@ -32,6 +32,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-playwright-
 
+      - name: Run unit tests
+        run: yarn test:run
+
       - name: Build Storybook
         run: yarn build:storybook
       - name: Serve Storybook
