@@ -4,7 +4,7 @@ exports[`Stories Snapshots > Button > Primary 1`] = `
 .c0 {
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   color: white;
   background-color: #083e75;
   cursor: pointer;
@@ -35,7 +35,7 @@ exports[`Stories Snapshots > Button > Secondary 1`] = `
 .c0 {
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   color: white;
   background-color: #6c757d;
   cursor: pointer;
