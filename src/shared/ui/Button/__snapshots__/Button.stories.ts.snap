@@ -2,7 +2,7 @@
 
 exports[`Button Primary play-test 1`] = `
 <button variant="primary"
-        class="sc-aYaIB fKuSZp"
+        class="Button__ButtonStyled-sc-4dd5c220-0 eZeqKy"
 >
   Primary
 </button>
@@ -10,7 +10,7 @@ exports[`Button Primary play-test 1`] = `
 
 exports[`Button Secondary smoke-test 1`] = `
 <button variant="secondary"
-        class="sc-aYaIB iShOmn"
+        class="Button__ButtonStyled-sc-4dd5c220-0 xznk"
 >
   Secondary
 </button>

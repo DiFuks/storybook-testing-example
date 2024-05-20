@@ -5,7 +5,7 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@adobe/css-tools@npm:^4.3.2":
+"@adobe/css-tools@npm:^4.0.1, @adobe/css-tools@npm:^4.3.2":
   version: 4.3.3
   resolution: "@adobe/css-tools@npm:4.3.3"
   checksum: 10c0/e76e712df713964b87cdf2aca1f0477f19bebd845484d5fcba726d3ec7782366e2f26ec8cb2dcfaf47081a5c891987d8a9f5c3f30d11e1eb3c1848adc27fcb24
@@ -3966,6 +3966,15 @@ __metadata:
   peerDependencies:
     "@swc/core": "*"
   checksum: 10c0/7f1993f9201420bb499c92ab28797352bcbf9e3a6c7b5a1806fdc34c9c3b46ea9e5b2f070c0e13fcf7f3c3fadbbc38777840baabb178f589bf1f67543763adb6
+  languageName: node
+  linkType: hard
+
+"@swc/plugin-styled-components@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "@swc/plugin-styled-components@npm:2.0.6"
+  dependencies:
+    "@swc/counter": "npm:^0.1.3"
+  checksum: 10c0/35fe19ddf8c4734b3e4c62f0e97d981a2b7e88b1649a92be064cc9416c11995528c81ce223f3452ab88daf2a0c23e3250d2269b690035e63c2a9007ee88224b8
   languageName: node
   linkType: hard
 
@@ -10393,6 +10402,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-styled-components@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "jest-styled-components@npm:7.2.0"
+  dependencies:
+    "@adobe/css-tools": "npm:^4.0.1"
+  peerDependencies:
+    styled-components: ">= 5"
+  checksum: 10c0/44eecf73cd1ee50686c9c16517222e2c012422dd7d90a07813f82f3ccce4059563e620d25aed60274e05d31fe6375b1f31a3486033aa39ea5e82fd94afcfa32f
+  languageName: node
+  linkType: hard
+
 "jest-util@npm:^29.7.0":
   version: 29.7.0
   resolution: "jest-util@npm:29.7.0"
@@ -13740,6 +13760,7 @@ __metadata:
   resolution: "storybook-testing-example@workspace:."
   dependencies:
     "@chromatic-com/storybook": "npm:^1.4.0"
+    "@jest/types": "npm:^29.6.3"
     "@rushstack/eslint-patch": "npm:^1.10.3"
     "@storybook/addon-a11y": "npm:^8.1.1"
     "@storybook/addon-coverage": "npm:^1.0.3"
@@ -13752,6 +13773,7 @@ __metadata:
     "@storybook/react-vite": "npm:^8.1.1"
     "@storybook/test": "npm:^8.1.1"
     "@storybook/test-runner": "npm:^0.18.1"
+    "@swc/plugin-styled-components": "npm:^2.0.6"
     "@testing-library/jest-dom": "npm:^6.4.5"
     "@testing-library/react": "npm:^15.0.7"
     "@testing-library/user-event": "npm:^14.5.2"
@@ -13764,6 +13786,7 @@ __metadata:
     eslint-config-fuks: "npm:^2.0.0"
     eslint-plugin-storybook: "npm:^0.8.0"
     http-server: "npm:^14.1.1"
+    jest-styled-components: "npm:^7.2.0"
     jsdom: "npm:^24.0.0"
     loki: "npm:^0.35.0"
     playwright: "npm:^1.44.0"
