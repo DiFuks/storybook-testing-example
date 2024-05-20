@@ -13309,6 +13309,7 @@ __metadata:
     styled-components: "npm:^6.1.11"
     typescript: "npm:^5.4.5"
     vite: "npm:^5.2.11"
+    vite-plugin-turbosnap: "npm:^1.0.3"
   languageName: unknown
   linkType: soft
 
@@ -14353,6 +14354,13 @@ __metadata:
   version: 1.1.2
   resolution: "vary@npm:1.1.2"
   checksum: 10c0/f15d588d79f3675135ba783c91a4083dcd290a2a5be9fcb6514220a1634e23df116847b1cc51f66bfb0644cf9353b2abb7815ae499bab06e46dd33c1a6bf1f4f
+  languageName: node
+  linkType: hard
+
+"vite-plugin-turbosnap@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "vite-plugin-turbosnap@npm:1.0.3"
+  checksum: 10c0/fd4a283708e24b54442b5db05461f8302bc57094234fd5b0dae1a6f76bb79078c68a729e516f352d04b89fea7c459f8272921f788bd3cd20d1488c7e73d7238e
   languageName: node
   linkType: hard
 
