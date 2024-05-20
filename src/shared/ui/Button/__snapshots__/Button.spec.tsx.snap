@@ -4,7 +4,7 @@ exports[`Button > should render Primary correctly 1`] = `
 .c0 {
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   color: white;
   background-color: #083e75;
   cursor: pointer;
