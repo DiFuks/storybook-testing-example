@@ -13,7 +13,7 @@
     "test:storybook": "test-storybook",
     "loki:ci": "loki test --requireReference --diffingEngine pixelmatch --chromeTolerance 1 --chromeDockerImage zenika/alpine-chrome:123",
     "loki:dev": "loki test --diffingEngine pixelmatch --chromeDockerImage zenika/alpine-chrome:123",
-    "chromatic": "chromatic --exit-zero-on-changes --storybook-build-dir storybook-static --build-script-name build:storybook"
+    "chromatic": "chromatic"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.4.0",
