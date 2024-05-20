@@ -31,7 +31,7 @@ export const Primary: Story = {
 
 		await userEvent.click(button);
 
-		await expect(button).toHaveTextContent(/Priasmary/);
+		await expect(button).toHaveTextContent(/Primary/);
 	},
 };
 

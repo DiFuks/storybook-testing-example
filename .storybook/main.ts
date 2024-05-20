@@ -1,6 +1,8 @@
 import type { StorybookConfig } from "@storybook/react-vite";
+import turbosnap from "vite-plugin-turbosnap";
 
 import { join, dirname } from "path";
+import { mergeConfig } from 'vite';
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -19,12 +21,24 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/addon-interactions"),
     getAbsolutePath("@chromatic-com/storybook"),
   ],
+  async viteFinal(config, { configType }) {
+    return mergeConfig(config, {
+      plugins:
+        configType === "PRODUCTION"
+          ? [
+            turbosnap({
+              rootDir: config.root ?? process.cwd(),
+            }),
+          ]
+          : [],
+    });
+  },
   typescript: {
     check: false,
     reactDocgen: `react-docgen-typescript`,
     reactDocgenTypescriptOptions: {
-      shouldExtractLiteralValuesFromEnum: true, // makes union prop types like variant and size appear as select controls
-      shouldRemoveUndefinedFromOptional: true, // makes string and boolean types that can be undefined appear as inputs and switches
+      shouldExtractLiteralValuesFromEnum: true,
+      shouldRemoveUndefinedFromOptional: true,
     },
   },
   framework: {
