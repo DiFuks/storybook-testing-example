@@ -1,7 +1,21 @@
 {
   "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
     "noEmit": true,
     "jsx": "react-jsx",
-    "strict": true
-  }
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es2018",
+    "moduleResolution": "node",
+    "strict": true,
+    "module": "ESNext",
+    "noImplicitReturns": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noUncheckedIndexedAccess": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".storybook/**/*"],
 }

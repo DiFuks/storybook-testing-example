@@ -4250,6 +4250,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/junit-report-builder@npm:^3.0.0":
+  version: 3.0.2
+  resolution: "@types/junit-report-builder@npm:3.0.2"
+  checksum: 10c0/3848c5247a57597695c86ab7a80cf64ba0bfcbc39e067e9e2e051eea80608a95261de065298aaaaee795b137b076f5ab3acb4e3ba003ee637a9dfd9715f86456
+  languageName: node
+  linkType: hard
+
 "@types/lodash@npm:^4.14.167":
   version: 4.17.4
   resolution: "@types/lodash@npm:4.17.4"
@@ -5262,10 +5269,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-core@npm:^4.2.0":
+"axe-core@npm:^4.2.0, axe-core@npm:^4.5.1":
   version: 4.9.1
   resolution: "axe-core@npm:4.9.1"
   checksum: 10c0/ac9e5a0c6fa115a43ebffc32a1d2189e1ca6431b5a78e88cdcf94a72a25c5964185682edd94fe6bdb1cb4266c0d06301b022866e0e50dcdf6e3cefe556470110
+  languageName: node
+  linkType: hard
+
+"axe-html-reporter@npm:2.2.3":
+  version: 2.2.3
+  resolution: "axe-html-reporter@npm:2.2.3"
+  dependencies:
+    mustache: "npm:^4.0.1"
+    rimraf: "npm:^3.0.2"
+  peerDependencies:
+    axe-core: ">=3"
+  checksum: 10c0/f875c62a9ce94365bb28318239cbe6e7bbdadbee13ccc8ffa5b9acbd563399701028dd4433928f9381993772cac9df20e1a8600220991bf3f1b175b631614f92
+  languageName: node
+  linkType: hard
+
+"axe-playwright@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "axe-playwright@npm:2.0.1"
+  dependencies:
+    "@types/junit-report-builder": "npm:^3.0.0"
+    axe-core: "npm:^4.5.1"
+    axe-html-reporter: "npm:2.2.3"
+    junit-report-builder: "npm:^3.0.1"
+    picocolors: "npm:^1.0.0"
+  peerDependencies:
+    playwright: ">1.0.0"
+  checksum: 10c0/169b02a1c0732ba71187de1f71ba97f208e42d5c81c631841b817591e291c494715d548ffca0ed13ba5f46c6b9707400153cf63dbc15277c8944cc19ba84565a
   languageName: node
   linkType: hard
 
@@ -6368,6 +6402,13 @@ __metadata:
     es-errors: "npm:^1.3.0"
     is-data-view: "npm:^1.0.1"
   checksum: 10c0/21b0d2e53fd6e20cc4257c873bf6d36d77bd6185624b84076c0a1ddaa757b49aaf076254006341d35568e89f52eecd1ccb1a502cfb620f2beca04f48a6a62a8f
+  languageName: node
+  linkType: hard
+
+"date-format@npm:4.0.3":
+  version: 4.0.3
+  resolution: "date-format@npm:4.0.3"
+  checksum: 10c0/be940a4c0f35875cd9df1b160531e9bbb447c4d8d2817b4b110f79c109018b4a1c0d4676ef756694bcf2e7f103f0893ff53c814896ec42e3b7390bb16b299f6f
   languageName: node
   linkType: hard
 
@@ -10444,6 +10485,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"junit-report-builder@npm:^3.0.1":
+  version: 3.2.1
+  resolution: "junit-report-builder@npm:3.2.1"
+  dependencies:
+    date-format: "npm:4.0.3"
+    lodash: "npm:^4.17.21"
+    make-dir: "npm:^3.1.0"
+    xmlbuilder: "npm:^15.1.1"
+  checksum: 10c0/00e66b98a95e0716bd8fb784b29f043e1969d06ea788990d8ddc2b0da8dc97477ea94413ac99212d07b6f9d67e0f9acf31dc660ff27471d3d52301c2f75feec3
+  languageName: node
+  linkType: hard
+
 "keyv@npm:^4.5.3":
   version: 4.5.4
   resolution: "keyv@npm:4.5.4"
@@ -10713,7 +10766,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-dir@npm:^3.0.0, make-dir@npm:^3.0.2":
+"make-dir@npm:^3.0.0, make-dir@npm:^3.0.2, make-dir@npm:^3.1.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
   dependencies:
@@ -11055,6 +11108,15 @@ __metadata:
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: 10c0/d924b57e7312b3b63ad21fc5b3dc0af5e78d61a1fc7cfb5457edaf26326bf62be5307cc87ffb6862ef1c2b33b0233cdb5d4f01c4c958cc0d660948b65a287a48
+  languageName: node
+  linkType: hard
+
+"mustache@npm:^4.0.1":
+  version: 4.2.0
+  resolution: "mustache@npm:4.2.0"
+  bin:
+    mustache: bin/mustache
+  checksum: 10c0/1f8197e8a19e63645a786581d58c41df7853da26702dbc005193e2437c98ca49b255345c173d50c08fe4b4dbb363e53cb655ecc570791f8deb09887248dd34a2
   languageName: node
   linkType: hard
 
@@ -13314,6 +13376,7 @@ __metadata:
     "@types/react": "npm:^18.3.2"
     "@types/react-dom": "npm:^18.3.0"
     "@vitejs/plugin-react-swc": "npm:^3.6.0"
+    axe-playwright: "npm:^2.0.1"
     chromatic: "npm:^11.3.5"
     eslint: "npm:^8.57.0"
     eslint-config-fuks: "npm:^2.0.0"
@@ -14821,6 +14884,13 @@ __metadata:
   version: 1.0.1
   resolution: "xml@npm:1.0.1"
   checksum: 10c0/04bcc9b8b5e7b49392072fbd9c6b0f0958bd8e8f8606fee460318e43991349a68cbc5384038d179ff15aef7d222285f69ca0f067f53d071084eb14c7fdb30411
+  languageName: node
+  linkType: hard
+
+"xmlbuilder@npm:^15.1.1":
+  version: 15.1.1
+  resolution: "xmlbuilder@npm:15.1.1"
+  checksum: 10c0/665266a8916498ff8d82b3d46d3993913477a254b98149ff7cff060d9b7cc0db7cf5a3dae99aed92355254a808c0e2e3ec74ad1b04aa1061bdb8dfbea26c18b8
   languageName: node
   linkType: hard
 
