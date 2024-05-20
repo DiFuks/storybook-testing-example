@@ -28,7 +28,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@chromatic-com/storybook", "npm:1.4.0"],\
-          ["@jest/types", "npm:29.6.3"],\
           ["@rushstack/eslint-patch", "npm:1.10.3"],\
           ["@storybook/addon-a11y", "npm:8.1.1"],\
           ["@storybook/addon-coverage", "npm:1.0.3"],\
@@ -54,7 +53,6 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-fuks", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:2.0.0"],\
           ["eslint-plugin-storybook", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:0.8.0"],\
           ["http-server", "npm:14.1.1"],\
-          ["jest-styled-components", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:7.2.0"],\
           ["jsdom", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:24.0.0"],\
           ["loki", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:0.35.0"],\
           ["playwright", "npm:1.44.0"],\
@@ -14645,29 +14643,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["jest-styled-components", [\
-      ["npm:7.2.0", {\
-        "packageLocation": "../../.yarn/berry/cache/jest-styled-components-npm-7.2.0-de88287aa8-10c0.zip/node_modules/jest-styled-components/",\
-        "packageDependencies": [\
-          ["jest-styled-components", "npm:7.2.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:7.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/jest-styled-components-virtual-5d0006cc73/3/.yarn/berry/cache/jest-styled-components-npm-7.2.0-de88287aa8-10c0.zip/node_modules/jest-styled-components/",\
-        "packageDependencies": [\
-          ["jest-styled-components", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:7.2.0"],\
-          ["@adobe/css-tools", "npm:4.3.3"],\
-          ["@types/styled-components", null],\
-          ["styled-components", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:6.1.11"]\
-        ],\
-        "packagePeers": [\
-          "@types/styled-components",\
-          "styled-components"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["jest-util", [\
       ["npm:29.7.0", {\
         "packageLocation": "../../.yarn/berry/cache/jest-util-npm-29.7.0-ff1d59714b-10c0.zip/node_modules/jest-util/",\
@@ -18524,7 +18499,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["storybook-testing-example", "workspace:."],\
           ["@chromatic-com/storybook", "npm:1.4.0"],\
-          ["@jest/types", "npm:29.6.3"],\
           ["@rushstack/eslint-patch", "npm:1.10.3"],\
           ["@storybook/addon-a11y", "npm:8.1.1"],\
           ["@storybook/addon-coverage", "npm:1.0.3"],\
@@ -18550,7 +18524,6 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-fuks", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:2.0.0"],\
           ["eslint-plugin-storybook", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:0.8.0"],\
           ["http-server", "npm:14.1.1"],\
-          ["jest-styled-components", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:7.2.0"],\
           ["jsdom", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:24.0.0"],\
           ["loki", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:0.35.0"],\
           ["playwright", "npm:1.44.0"],\
