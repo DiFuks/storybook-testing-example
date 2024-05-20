@@ -16,6 +16,10 @@ const config: TestRunnerConfig = {
 				html: true,
 			},
 		});
+
+		const elementHandler = await page.$('#storybook-root');
+		const innerHTML = await elementHandler?.innerHTML();
+		expect(innerHTML).toMatchSnapshot();
 	},
 };
 

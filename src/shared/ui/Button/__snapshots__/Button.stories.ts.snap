@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Primary play-test 1`] = `
+<button variant="primary"
+        class="sc-aYaIB fKuSZp"
+>
+  Primary
+</button>
+`;
+
+exports[`Button Secondary smoke-test 1`] = `
+<button variant="secondary"
+        class="sc-aYaIB iShOmn"
+>
+  Secondary
+</button>
+`;
