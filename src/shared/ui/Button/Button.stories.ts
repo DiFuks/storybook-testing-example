@@ -18,20 +18,24 @@ export const Primary: Story = {
 		children: `Primary`,
 		variant: `primary`,
 	},
-	play: async ({ canvasElement, args }) => {
+	play: async ({ canvasElement, args, step }) => {
 		const canvas = within(canvasElement);
 		const button = canvas.getByRole(`button`);
 
 		await expect(button).toHaveTextContent(/Primary/);
 
-		await userEvent.click(button);
+		await step(`First click`, async () => {
+			await userEvent.click(button);
 
-		await expect(args.onClick).toHaveBeenCalled();
-		await expect(button).toHaveTextContent(/Clicked!/);
+			await expect(args.onClick).toHaveBeenCalled();
+			await expect(button).toHaveTextContent(/Clicked!/);
+		});
 
-		await userEvent.click(button);
+		await step(`Second click`, async () => {
+			await userEvent.click(button);
 
-		await expect(button).toHaveTextContent(/Primary/);
+			await expect(button).toHaveTextContent(/Primary/);
+		});
 	},
 };
 

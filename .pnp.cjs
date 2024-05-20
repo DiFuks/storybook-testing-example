@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@chromatic-com/storybook", "npm:1.4.0"],\
           ["@rushstack/eslint-patch", "npm:1.10.3"],\
           ["@storybook/addon-a11y", "npm:8.1.1"],\
+          ["@storybook/addon-coverage", "npm:1.0.3"],\
           ["@storybook/addon-essentials", "npm:8.1.1"],\
           ["@storybook/addon-interactions", "npm:8.1.1"],\
           ["@storybook/addon-links", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:8.1.1"],\
@@ -3709,6 +3710,20 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@jsdevtools/coverage-istanbul-loader", [\
+      ["npm:3.0.5", {\
+        "packageLocation": "../../.yarn/berry/cache/@jsdevtools-coverage-istanbul-loader-npm-3.0.5-4101100415-10c0.zip/node_modules/@jsdevtools/coverage-istanbul-loader/",\
+        "packageDependencies": [\
+          ["@jsdevtools/coverage-istanbul-loader", "npm:3.0.5"],\
+          ["convert-source-map", "npm:1.9.0"],\
+          ["istanbul-lib-instrument", "npm:4.0.3"],\
+          ["loader-utils", "npm:2.0.4"],\
+          ["merge-source-map", "npm:1.1.0"],\
+          ["schema-utils", "npm:2.7.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@loki/browser", [\
       ["npm:0.35.0", {\
         "packageLocation": "../../.yarn/berry/cache/@loki-browser-npm-0.35.0-56c1d62186-10c0.zip/node_modules/@loki/browser/",\
@@ -5179,6 +5194,24 @@ const RAW_RUNTIME_STATE =
           ["dequal", "npm:2.0.3"],\
           ["lodash", "npm:4.17.21"],\
           ["ts-dedent", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@storybook/addon-coverage", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/@storybook-addon-coverage-npm-1.0.3-e9c56e11e6-10c0.zip/node_modules/@storybook/addon-coverage/",\
+        "packageDependencies": [\
+          ["@storybook/addon-coverage", "npm:1.0.3"],\
+          ["@istanbuljs/load-nyc-config", "npm:1.1.0"],\
+          ["@jsdevtools/coverage-istanbul-loader", "npm:3.0.5"],\
+          ["@types/istanbul-lib-coverage", "npm:2.0.6"],\
+          ["convert-source-map", "npm:2.0.0"],\
+          ["espree", "npm:9.6.1"],\
+          ["istanbul-lib-instrument", "npm:6.0.2"],\
+          ["source-map", "npm:0.7.4"],\
+          ["test-exclude", "npm:6.0.0"],\
+          ["vite-plugin-istanbul", "npm:3.0.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7871,6 +7904,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ajv-keywords", [\
+      ["npm:3.5.2", {\
+        "packageLocation": "../../.yarn/berry/cache/ajv-keywords-npm-3.5.2-0e391b70e2-10c0.zip/node_modules/ajv-keywords/",\
+        "packageDependencies": [\
+          ["ajv-keywords", "npm:3.5.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2", {\
+        "packageLocation": "./.yarn/__virtual__/ajv-keywords-virtual-11d24a6cf1/3/.yarn/berry/cache/ajv-keywords-npm-3.5.2-0e391b70e2-10c0.zip/node_modules/ajv-keywords/",\
+        "packageDependencies": [\
+          ["ajv-keywords", "virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2"],\
+          ["@types/ajv", null],\
+          ["ajv", "npm:6.12.6"]\
+        ],\
+        "packagePeers": [\
+          "@types/ajv",\
+          "ajv"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ansi-escapes", [\
       ["npm:4.3.2", {\
         "packageLocation": "../../.yarn/berry/cache/ansi-escapes-npm-4.3.2-3ad173702f-10c0.zip/node_modules/ansi-escapes/",\
@@ -8641,6 +8696,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/big-integer-npm-1.6.52-4bec75720c-10c0.zip/node_modules/big-integer/",\
         "packageDependencies": [\
           ["big-integer", "npm:1.6.52"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["big.js", [\
+      ["npm:5.2.2", {\
+        "packageLocation": "../../.yarn/berry/cache/big.js-npm-5.2.2-e147c30820-10c0.zip/node_modules/big.js/",\
+        "packageDependencies": [\
+          ["big.js", "npm:5.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10212,6 +10276,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/emoji-regex-npm-9.2.2-e6fac8d058-10c0.zip/node_modules/emoji-regex/",\
         "packageDependencies": [\
           ["emoji-regex", "npm:9.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["emojis-list", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../.yarn/berry/cache/emojis-list-npm-3.0.0-7faa48e6fd-10c0.zip/node_modules/emojis-list/",\
+        "packageDependencies": [\
+          ["emojis-list", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14792,6 +14865,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["loader-utils", [\
+      ["npm:2.0.4", {\
+        "packageLocation": "../../.yarn/berry/cache/loader-utils-npm-2.0.4-ba3800585b-10c0.zip/node_modules/loader-utils/",\
+        "packageDependencies": [\
+          ["loader-utils", "npm:2.0.4"],\
+          ["big.js", "npm:5.2.2"],\
+          ["emojis-list", "npm:3.0.0"],\
+          ["json5", "npm:2.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["locate-path", [\
       ["npm:3.0.0", {\
         "packageLocation": "../../.yarn/berry/cache/locate-path-npm-3.0.0-991671ae9f-10c0.zip/node_modules/locate-path/",\
@@ -15118,6 +15203,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/merge-descriptors-npm-1.0.1-615287aaa8-10c0.zip/node_modules/merge-descriptors/",\
         "packageDependencies": [\
           ["merge-descriptors", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["merge-source-map", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/merge-source-map-npm-1.1.0-f4ef12b36d-10c0.zip/node_modules/merge-source-map/",\
+        "packageDependencies": [\
+          ["merge-source-map", "npm:1.1.0"],\
+          ["source-map", "npm:0.6.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17527,6 +17622,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["schema-utils", [\
+      ["npm:2.7.1", {\
+        "packageLocation": "../../.yarn/berry/cache/schema-utils-npm-2.7.1-f84d18c473-10c0.zip/node_modules/schema-utils/",\
+        "packageDependencies": [\
+          ["schema-utils", "npm:2.7.1"],\
+          ["@types/json-schema", "npm:7.0.15"],\
+          ["ajv", "npm:6.12.6"],\
+          ["ajv-keywords", "virtual:f84d18c473fad3c01e1cf352f81ad13de804ca40da5bf6e752464a2e78dcb097ad579b06da5ff33a55ba9957fb9c74909b99fc5e215420a3f9b5dc87ad71363b#npm:3.5.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["secure-compare", [\
       ["npm:3.0.1", {\
         "packageLocation": "../../.yarn/berry/cache/secure-compare-npm-3.0.1-5bb9fae9c0-10c0.zip/node_modules/secure-compare/",\
@@ -17804,6 +17911,13 @@ const RAW_RUNTIME_STATE =
           ["source-map", "npm:0.6.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:0.7.4", {\
+        "packageLocation": "../../.yarn/berry/cache/source-map-npm-0.7.4-bc8d018ab6-10c0.zip/node_modules/source-map/",\
+        "packageDependencies": [\
+          ["source-map", "npm:0.7.4"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["source-map-js", [\
@@ -17994,6 +18108,7 @@ const RAW_RUNTIME_STATE =
           ["@chromatic-com/storybook", "npm:1.4.0"],\
           ["@rushstack/eslint-patch", "npm:1.10.3"],\
           ["@storybook/addon-a11y", "npm:8.1.1"],\
+          ["@storybook/addon-coverage", "npm:1.0.3"],\
           ["@storybook/addon-essentials", "npm:8.1.1"],\
           ["@storybook/addon-interactions", "npm:8.1.1"],\
           ["@storybook/addon-links", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:8.1.1"],\
@@ -19296,6 +19411,19 @@ const RAW_RUNTIME_STATE =
           "stylus",\
           "sugarss",\
           "terser"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vite-plugin-istanbul", [\
+      ["npm:3.0.4", {\
+        "packageLocation": "../../.yarn/berry/cache/vite-plugin-istanbul-npm-3.0.4-6882470324-10c0.zip/node_modules/vite-plugin-istanbul/",\
+        "packageDependencies": [\
+          ["vite-plugin-istanbul", "npm:3.0.4"],\
+          ["@istanbuljs/load-nyc-config", "npm:1.1.0"],\
+          ["istanbul-lib-instrument", "npm:5.2.1"],\
+          ["picocolors", "npm:1.0.1"],\
+          ["test-exclude", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\

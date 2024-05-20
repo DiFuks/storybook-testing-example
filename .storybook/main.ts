@@ -15,6 +15,7 @@ const config: StorybookConfig = {
 		getAbsolutePath(`@storybook/addon-interactions`),
 		getAbsolutePath(`@chromatic-com/storybook`),
 		getAbsolutePath(`@storybook/addon-a11y`),
+		getAbsolutePath(`@storybook/addon-coverage`),
 	],
 	viteFinal: (viteConfig, { configType }) =>
 		mergeConfig(viteConfig, {
