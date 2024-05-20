@@ -1,0 +1,14 @@
+node_modules
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+dist
+.swc
+yarn-error.log
+.DS_Store
+storybook-static
+.idea/*
