@@ -18,6 +18,9 @@ jobs:
           cache: yarn
           cache-dependency-path: yarn.lock
 
+      - name: Install packages
+        run: yarn
+
       - name: Get installed Playwright version
         id: playwright-version
         run: |
@@ -30,9 +33,6 @@ jobs:
           key: '${{ runner.os }}-playwright-${{ steps.playwright-version.outputs.version }}'
           restore-keys: |
             ${{ runner.os }}-playwright-
-
-      - name: Install packages
-        run: yarn
 
       - name: Build Storybook
         run: yarn build:storybook
