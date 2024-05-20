@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@chromatic-com/storybook", "npm:1.4.0"],\
           ["@rushstack/eslint-patch", "npm:1.10.3"],\
+          ["@storybook/addon-a11y", "npm:8.1.1"],\
           ["@storybook/addon-essentials", "npm:8.1.1"],\
           ["@storybook/addon-interactions", "npm:8.1.1"],\
           ["@storybook/addon-links", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:8.1.1"],\
@@ -5130,6 +5131,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@storybook/addon-a11y", [\
+      ["npm:8.1.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@storybook-addon-a11y-npm-8.1.1-222b0280fc-10c0.zip/node_modules/@storybook/addon-a11y/",\
+        "packageDependencies": [\
+          ["@storybook/addon-a11y", "npm:8.1.1"],\
+          ["@storybook/addon-highlight", "npm:8.1.1"],\
+          ["axe-core", "npm:4.9.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@storybook/addon-actions", [\
       ["npm:8.1.1", {\
         "packageLocation": "../../.yarn/berry/cache/@storybook-addon-actions-npm-8.1.1-d7cc10fb76-10c0.zip/node_modules/@storybook/addon-actions/",\
@@ -8261,6 +8273,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/axe-core-npm-4.7.0-a095cfe0ae-10c0.zip/node_modules/axe-core/",\
         "packageDependencies": [\
           ["axe-core", "npm:4.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.9.1", {\
+        "packageLocation": "../../.yarn/berry/cache/axe-core-npm-4.9.1-6b74f843b9-10c0.zip/node_modules/axe-core/",\
+        "packageDependencies": [\
+          ["axe-core", "npm:4.9.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17882,6 +17901,7 @@ const RAW_RUNTIME_STATE =
           ["storybook-testing-example", "workspace:."],\
           ["@chromatic-com/storybook", "npm:1.4.0"],\
           ["@rushstack/eslint-patch", "npm:1.10.3"],\
+          ["@storybook/addon-a11y", "npm:8.1.1"],\
           ["@storybook/addon-essentials", "npm:8.1.1"],\
           ["@storybook/addon-interactions", "npm:8.1.1"],\
           ["@storybook/addon-links", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:8.1.1"],\
