@@ -29,7 +29,7 @@ interface ButtonStyledProps {
 const ButtonStyled = styled.button<ButtonStyledProps>`
 	padding: 10px 20px;
 	border: none;
-	border-radius: 5px;
+	border-radius: 30px;
 	color: white;
 	background-color: ${props => (props.variant === `primary` ? `#083e75` : `#6c757d`)};
 	cursor: pointer;
