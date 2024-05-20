@@ -1,4 +1,6 @@
 {
+  "diffingEngine": "pixelmatch",
+  "chromeDockerImage": "zenika/alpine-chrome:123",
   "configurations": {
     "chrome.laptop.app": {
       "target": "chrome.docker",

@@ -11,8 +11,9 @@
     "storybook": "storybook dev -p 6006",
     "build:storybook": "storybook build",
     "test:storybook": "test-storybook",
-    "loki:ci": "loki test --requireReference --diffingEngine pixelmatch --chromeTolerance 1 --chromeDockerImage zenika/alpine-chrome:123",
-    "loki:dev": "loki test --diffingEngine pixelmatch --chromeDockerImage zenika/alpine-chrome:123",
+    "loki:ci": "loki test --requireReference --chromeTolerance 1",
+    "loki:dev": "loki test",
+    "loki:approve": "loki approve",
     "chromatic": "chromatic"
   },
   "devDependencies": {
