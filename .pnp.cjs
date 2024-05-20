@@ -41,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.2"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react-swc", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:3.6.0"],\
+          ["chromatic", "virtual:1dee8263450e1beb5f5d5a2fcc5469e6bd455c0a96fe53fc7fc0e00c78b2e5597dea7fdb5f7ec0d3533aa674c93994c0f244ba41f2f1a9a8b9b3481ba0c753bb#npm:11.3.5"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-fuks", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:2.0.0"],\
           ["eslint-plugin-storybook", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:0.8.0"],\
@@ -17755,6 +17756,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.2"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react-swc", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:3.6.0"],\
+          ["chromatic", "virtual:1dee8263450e1beb5f5d5a2fcc5469e6bd455c0a96fe53fc7fc0e00c78b2e5597dea7fdb5f7ec0d3533aa674c93994c0f244ba41f2f1a9a8b9b3481ba0c753bb#npm:11.3.5"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-fuks", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:2.0.0"],\
           ["eslint-plugin-storybook", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:0.8.0"],\

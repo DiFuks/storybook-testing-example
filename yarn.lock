@@ -5777,7 +5777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^11.3.2":
+"chromatic@npm:^11.3.2, chromatic@npm:^11.3.5":
   version: 11.3.5
   resolution: "chromatic@npm:11.3.5"
   peerDependencies:
@@ -13167,6 +13167,7 @@ __metadata:
     "@types/react": "npm:^18.3.2"
     "@types/react-dom": "npm:^18.3.0"
     "@vitejs/plugin-react-swc": "npm:^3.6.0"
+    chromatic: "npm:^11.3.5"
     eslint: "npm:^8.57.0"
     eslint-config-fuks: "npm:^2.0.0"
     eslint-plugin-storybook: "npm:^0.8.0"
