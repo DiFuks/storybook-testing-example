@@ -5,7 +5,7 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@adobe/css-tools@npm:^4.3.2":
+"@adobe/css-tools@npm:^4.0.1, @adobe/css-tools@npm:^4.3.2":
   version: 4.3.3
   resolution: "@adobe/css-tools@npm:4.3.3"
   checksum: 10c0/e76e712df713964b87cdf2aca1f0477f19bebd845484d5fcba726d3ec7782366e2f26ec8cb2dcfaf47081a5c891987d8a9f5c3f30d11e1eb3c1848adc27fcb24
@@ -10402,6 +10402,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-styled-components@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "jest-styled-components@npm:7.2.0"
+  dependencies:
+    "@adobe/css-tools": "npm:^4.0.1"
+  peerDependencies:
+    styled-components: ">= 5"
+  checksum: 10c0/44eecf73cd1ee50686c9c16517222e2c012422dd7d90a07813f82f3ccce4059563e620d25aed60274e05d31fe6375b1f31a3486033aa39ea5e82fd94afcfa32f
+  languageName: node
+  linkType: hard
+
 "jest-util@npm:^29.7.0":
   version: 29.7.0
   resolution: "jest-util@npm:29.7.0"
@@ -13774,6 +13785,7 @@ __metadata:
     eslint-config-fuks: "npm:^2.0.0"
     eslint-plugin-storybook: "npm:^0.8.0"
     http-server: "npm:^14.1.1"
+    jest-styled-components: "npm:^7.2.0"
     jsdom: "npm:^24.0.0"
     loki: "npm:^0.35.0"
     playwright: "npm:^1.44.0"

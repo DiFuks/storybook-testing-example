@@ -14,6 +14,7 @@ describe(`Button`, () => {
 		const buttonElement = screen.getByRole(`button`);
 
 		expect(buttonElement.textContent).toEqual(Primary.args.children);
+		expect(buttonElement).toMatchSnapshot();
 	});
 
 	it.each(Object.entries(components))(`should render %s correctly`, (name, Component) => {

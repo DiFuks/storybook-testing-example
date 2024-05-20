@@ -17,9 +17,12 @@ const config: TestRunnerConfig = {
 			},
 		});
 
-		const elementHandler = await page.$('#storybook-root');
+		/*
+		// Снепшот-тесты из Playwright
+		const elementHandler = await page.$(`#storybook-root`);
 		const innerHTML = await elementHandler?.innerHTML();
 		expect(innerHTML).toMatchSnapshot();
+		*/
 	},
 };
 
