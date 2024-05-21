@@ -1,26 +1,15 @@
-import { type FC, type HTMLAttributes, type MouseEventHandler, useState } from 'react';
+import { type FC, type HTMLAttributes } from 'react';
 import styled from 'styled-components';
 
 type ButtonVariant = `primary` | `secondary`;
 
-interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 	variant?: ButtonVariant;
 }
 
-export const Button: FC<ButtonProps> = ({ variant = `primary`, onClick, children, ...props }) => {
-	const [isClicked, setIsClicked] = useState(false);
-
-	const handleClick: MouseEventHandler<HTMLButtonElement> = event => {
-		setIsClicked(prevIsClicked => !prevIsClicked);
-		onClick?.(event);
-	};
-
-	return (
-		<ButtonStyled {...props} variant={variant} onClick={handleClick}>
-			{isClicked ? `Clicked!` : children}
-		</ButtonStyled>
-	);
-};
+export const Button: FC<ButtonProps> = ({ variant = `primary`, ...props }) => (
+	<ButtonStyled {...props} variant={variant} />
+);
 
 interface ButtonStyledProps {
 	variant: ButtonVariant;
