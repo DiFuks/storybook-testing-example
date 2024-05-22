@@ -9,7 +9,7 @@
     "serve": "vite",
     "build": "vite build",
     "storybook": "storybook dev -p 6006",
-    "build:storybook": "storybook build",
+    "build:storybook": "storybook build --stats-json storybook-static",
     "test:watch": "vitest",
     "test:run": "vitest run",
     "test:storybook": "test-storybook",
