@@ -1,23 +1,8 @@
-import { type FC, type MouseEventHandler, useState } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { expect, fn, userEvent, within } from '@storybook/test';
 
-import { Button, type ButtonProps } from './Button';
-
-const ButtonWithHooks: FC<ButtonProps> = ({ onClick, children, ...props }) => {
-	const [isClicked, setIsClicked] = useState(false);
-
-	const handleClick: MouseEventHandler<HTMLButtonElement> = event => {
-		setIsClicked(prevIsClicked => !prevIsClicked);
-		onClick?.(event);
-	};
-
-	return (
-		<Button {...props} onClick={handleClick}>
-			{isClicked ? `Clicked!` : children}
-		</Button>
-	);
-};
+import { Button } from './Button';
+import { ButtonWithHooks } from './ButtonWithHooks';
 
 const meta = {
 	component: Button,

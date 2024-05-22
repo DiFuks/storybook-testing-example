@@ -64,8 +64,12 @@ jobs:
           name: screenshot-testing-results
           path: .loki
 
+      - name: Git status
+        run: git status
+
       - name: Run Chromatic Visual Tests
         uses: chromaui/action@latest
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookBuildDir: storybook-static
           onlyChanged: true
