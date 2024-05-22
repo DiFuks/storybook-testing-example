@@ -1,7 +1,5 @@
 import type { StorybookConfig } from '@storybook/react-vite';
 import { dirname, join } from 'path';
-import { mergeConfig } from 'vite';
-import turbosnap from 'vite-plugin-turbosnap';
 
 const getAbsolutePath = (value: string): string => dirname(require.resolve(join(value, `package.json`)));
 
@@ -17,17 +15,6 @@ const config: StorybookConfig = {
 		getAbsolutePath(`@storybook/addon-a11y`),
 		getAbsolutePath(`@storybook/addon-coverage`),
 	],
-	viteFinal: (viteConfig, { configType }) =>
-		mergeConfig(viteConfig, {
-			plugins:
-				configType === `PRODUCTION`
-					? [
-							turbosnap({
-								rootDir: viteConfig.root ?? process.cwd(),
-							}),
-					  ]
-					: [],
-		}),
 	typescript: {
 		check: false,
 		reactDocgen: `react-docgen-typescript`,

@@ -63,7 +63,6 @@ const RAW_RUNTIME_STATE =
           ["styled-components", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:6.1.11"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["vite", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:5.2.11"],\
-          ["vite-plugin-turbosnap", "npm:1.0.3"],\
           ["vitest", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:1.6.0"]\
         ],\
         "linkType": "SOFT"\
@@ -18558,7 +18557,6 @@ const RAW_RUNTIME_STATE =
           ["styled-components", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:6.1.11"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["vite", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:5.2.11"],\
-          ["vite-plugin-turbosnap", "npm:1.0.3"],\
           ["vitest", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:1.6.0"]\
         ],\
         "linkType": "SOFT"\
@@ -19938,15 +19936,6 @@ const RAW_RUNTIME_STATE =
           ["istanbul-lib-instrument", "npm:5.2.1"],\
           ["picocolors", "npm:1.0.1"],\
           ["test-exclude", "npm:6.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["vite-plugin-turbosnap", [\
-      ["npm:1.0.3", {\
-        "packageLocation": "../../.yarn/berry/cache/vite-plugin-turbosnap-npm-1.0.3-8b72fea739-10c0.zip/node_modules/vite-plugin-turbosnap/",\
-        "packageDependencies": [\
-          ["vite-plugin-turbosnap", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
