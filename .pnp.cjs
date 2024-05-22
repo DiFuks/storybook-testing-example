@@ -41,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test", "npm:8.1.1"],\
           ["@storybook/test-runner", "npm:0.18.1"],\
           ["@swc/plugin-styled-components", "npm:2.0.6"],\
+          ["@testing-library/dom", "npm:10.1.0"],\
           ["@testing-library/jest-dom", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:6.4.5"],\
           ["@testing-library/react", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:15.0.7"],\
           ["@testing-library/user-event", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:14.5.2"],\
@@ -6822,7 +6823,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@testing-library-user-event-virtual-17ea67c0cc/0/cache/@testing-library-user-event-npm-14.5.2-ec9587901c-68a0c2aa28.zip/node_modules/@testing-library/user-event/",\
         "packageDependencies": [\
           ["@testing-library/user-event", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:14.5.2"],\
-          ["@testing-library/dom", null],\
+          ["@testing-library/dom", "npm:10.1.0"],\
           ["@types/testing-library__dom", null]\
         ],\
         "packagePeers": [\
@@ -18535,6 +18536,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/test", "npm:8.1.1"],\
           ["@storybook/test-runner", "npm:0.18.1"],\
           ["@swc/plugin-styled-components", "npm:2.0.6"],\
+          ["@testing-library/dom", "npm:10.1.0"],\
           ["@testing-library/jest-dom", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:6.4.5"],\
           ["@testing-library/react", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:15.0.7"],\
           ["@testing-library/user-event", "virtual:7b012997b836ca9124d3b305806ff1540bf339ba95a99fdb52b74a5668e19202273afc5a565e0bc26578cf02d0ba4e461f67630d34d05a426c960d861c7b2bd0#npm:14.5.2"],\
