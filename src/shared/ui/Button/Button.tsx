@@ -20,7 +20,7 @@ const ButtonStyled = styled.button<ButtonStyledProps>`
 	border: none;
 	border-radius: 30px;
 	color: white;
-	background-color: ${props => (props.variant === `primary` ? `#083e75` : `#6c757d`)};
+	background-color: ${props => (props.variant === `primary` ? `red` : `#6c757d`)};
 	cursor: pointer;
 	font-size: 16px;
 	transition: background-color 0.2s;
