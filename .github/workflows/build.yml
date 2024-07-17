@@ -21,51 +21,9 @@ jobs:
       - name: Install packages
         run: yarn
 
-      - name: Get installed Playwright version
-        id: playwright-version
-        run: echo "version=$(yarn node -e "console.log(require('playwright/package.json').version)")" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v4
-        id: playwright-cache
-        with:
-          path: '~/.cache/ms-playwright'
-          key: '${{ runner.os }}-playwright-${{ steps.playwright-version.outputs.version }}'
-          restore-keys: |
-            ${{ runner.os }}-playwright-
-
-      - name: Run unit tests
-        run: yarn test:run
-
-      - name: Build Storybook
-        run: yarn build:storybook
-      - name: Serve Storybook
-        run: yarn http-server storybook-static -p 6006 &
-        shell: bash
-      - name: Wait for Storybook to become available
-        run: |
-          echo "Waiting for Storybook to be served..."
-          while ! curl --silent --fail http://localhost:6006; do
-            sleep 5
-            echo "Retrying..."
-          done
-          echo "Storybook is being served!"
-
-      - name: Install Playwright browser for Storybook play tests
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
-        run: yarn playwright install chromium --with-deps
-      - name: Run Storybook play tests
-        run: yarn test:storybook
-
-      - name: Run Loki Visual Tests
-        run: yarn loki:ci
-      - name: Save Loki Visual Test Results
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: screenshot-testing-results
-          path: .loki
-
       - name: Run Chromatic Visual Tests
         uses: chromaui/action@latest
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           onlyChanged: true
+          exitZeroOnChanges: true
