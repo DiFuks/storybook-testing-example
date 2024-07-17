@@ -3987,7 +3987,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^10.0.0":
+"@testing-library/dom@npm:^10.0.0, @testing-library/dom@npm:^10.1.0":
   version: 10.1.0
   resolution: "@testing-library/dom@npm:10.1.0"
   dependencies:
@@ -13773,6 +13773,7 @@ __metadata:
     "@storybook/test": "npm:^8.1.1"
     "@storybook/test-runner": "npm:^0.18.1"
     "@swc/plugin-styled-components": "npm:^2.0.6"
+    "@testing-library/dom": "npm:^10.1.0"
     "@testing-library/jest-dom": "npm:^6.4.5"
     "@testing-library/react": "npm:^15.0.7"
     "@testing-library/user-event": "npm:^14.5.2"
